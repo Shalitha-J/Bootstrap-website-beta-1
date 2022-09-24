@@ -1,0 +1,14 @@
+
+body::before {
+    display: block;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 60px;
+}
+
+@media (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
